@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dream Lands - Real Estate</title>
+   
+</head>
+<body>
+    <!-- Header -->
+    <header>
+       <div class="logo">
+    <img src="assets/logo.webp" alt="Marci Metzger Homes Logo">
+       </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <button class="btn-book">Sign Up</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- <div class="hero-badge">🏡 WELCOME TO DREAM LANDS</div> -->
+         <h2>THE RIDGE REALTY GROUP</h2>
+        <h1 style="font-size: 90px;">Pahrump Realtor</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        
+        <div class="hero-buttons">
+            <button class="btn-primary">View Property</button>
+            <button class="btn-secondary">Get Started</button>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Enter Keywords">
+            <select class="search-input">
+                <option>Property Type</option>
+                <option>House</option>
+                <option>Apartment</option>
+            </select>
+            <select class="search-input">
+                <option>Sort by Rent</option>
+                <option>Sort by Sale</option>
+            </select>
+            <select class="search-input">
+                <option>Bed Rooms</option>
+                <option>+1</option>
+                <option>+2</option>
+                <option>+3</option>
+            </select>
+            <input type="text" class="search-input" placeholder="Min Price">
+            <input type="text" class="search-input" placeholder="Max Price">
+            <button class="btn-search">Search</button>
+        </div>
+    </section>
+
+         <!-- Popular Homes Section -->
+    <section class="popular-homes"
+    style="max-width: 250vh;
+           margin-bottom: 10px;">
+        <div class="popular-label">POPULAR</div>
+        <div class="popular-header">
+            <h2>Our Popular Homes</h2>
+            <a href="#" class="explore-link">Explore All →</a>
+        </div>
+        
+        <div class="popular-grid">
+            <!-- Home 1 -->
+            <div class="popular-card">
+                <div class="popular-card-image" style="background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('assets/banana.jpg'); background-size: cover;"
+>
+                </div>
+                <div class="popular-card-content">
+                    <div class="popular-location">
+                        <span>📍</span>
+                        <span>Banana Island, Lagos</span>
+                    </div>
+                    <div class="popular-specs">
+                        <div class="popular-spec">🛏️ 4 Beds</div>
+                        <div class="popular-spec">🚿 3 Baths</div>
+                        <div class="popular-spec">📐 5000 ft</div>
+                    </div>
+                    <div class="popular-footer">
+                        <div class="popular-price">$-------</div>
+                        <button class="btn-book-now">Call Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Home 2 -->
+            <div class="popular-card">
+                <div class="popular-card-image" style="background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('assets/parkview.webp'); background-size: cover;"
+            ></div>
+                <div class="popular-card-content">
+                    <div class="popular-location">
+                        <span>📍</span>
+                        <span>Parkview Estate, Lagos</span>
+                    </div>
+                    <div class="popular-specs">
+                        <div class="popular-spec">🛏️ 5 Beds</div>
+                        <div class="popular-spec">🚿 4 Baths</div>
+                        <div class="popular-spec">📐 6000 ft</div>
+                    </div>
+                    <div class="popular-footer">
+                        <div class="popular-price">$-------</div>
+                        <button class="btn-book-now">Call Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Home 3 -->
+            <div class="popular-card">
+                <div class="popular-card-image" style="background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('assets/atlantic.webp'); background-size: cover;"
+            ></div>
+                <div class="popular-card-content">
+                    <div class="popular-location">
+                        <span>📍</span>
+                        <span>Eko Atlantic, Lagos</span>
+                    </div>
+                    <div class="popular-specs">
+                        <div class="popular-spec">🛏️ 6 Beds</div>
+                        <div class="popular-spec">🚿 5 Baths</div>
+                        <div class="popular-spec">📐 8000 ft</div>
+                    </div>
+                    <div class="popular-footer">
+                        <div class="popular-price">$-------</div>
+                        <button class="btn-book-now">Call Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner Section -->
+    <section class="cta-banner">
+        <div class="cta-content-wrapper">
+            <div class="cta-text-content">
+                <h2>Find Your Dream Home Without Any Hassle</h2>
+                <p>We provide expert guidance and comprehensive services to help you discover the perfect property that matches your lifestyle and budget.</p>
+                
+                <div class="cta-features">
+                    <div class="cta-feature-item">
+                        <div class="cta-feature-icon">✓</div>
+                        <span>Wide selection of premium properties</span>
+                    </div>
+                    <div class="cta-feature-item">
+                        <div class="cta-feature-icon">✓</div>
+                        <span>Professional real estate consultants</span>
+                    </div>
+                    <div class="cta-feature-item">
+                        <div class="cta-feature-icon">✓</div>
+                        <span>Transparent pricing and quick process</span>
+                    </div>
+                </div>
+
+                <button class="cta-button">Call us Today!</button>
+            </div>
+
+            <div class="cta-image-content">
+                <div class="cta-image-wrapper">
+                    <div class="cta-main-image">
+                        <img src="assets/marciMetzger.png" alt="Pahrump Realtor">
+                        
+                        <!-- Agent Info Card -->
+                        <div class="agent-info-card">
+                            <h3>Marci Metzger</h3>
+                            <p class="position">REALTOR FOR NEARLY 3 DECADES!</p>
+                            <!-- <span class="id-number">206-919-6886</span> -->
+                        </div>
+                    </div>
+                    
+                    <div class="cta-floating-card card-1">
+                        <div class="card-icon">📍</div>
+                        <div class="card-text">
+                            <h4>Location</h4>
+                            <p>Prime Areas</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-floating-card card-2">
+                        <div class="card-icon">💰</div>
+                        <div class="card-text">
+                            <h4>Best Price</h4>
+                            <p>Guaranteed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-floating-card card-3">
+                        <div class="card-icon">⭐</div>
+                        <div class="card-text">
+                            <h4>Top Rated</h4>
+                            <p>5 Star Service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Get it Sold -->
+   <section class="blog-section">
+    <h2>Get It Sold</h2>
+
+    <div class="blog-grid">
+
+        <!-- Card 1 -->
+        <div class="blog-card">
+            <img src="assets/picture1.webp" alt="Workflow Optimization">
+
+            <div class="blog-content">
+                <h3>Top Residential Sales Last 5 Years</h3>
+                <p>
+                    We helped nearly 90 clients in 2021, and closed 28.5 million in sales! Our team works hard everyday to grow and learn, so that we may continue to excel in our market. Our clients deserve our best, & we want to make sure our best is better every year.
+                </p>
+            </div>
+
+            <!-- <div class="blog-footer">
+                <div class="author">
+                    <img src="assets/avatar2.webp" alt="Joel Kennedy">
+                    <span>Joel Kennedy</span>
+                </div>
+                <span class="read-time">4 Min Read</span>
+            </div> -->
+        </div>
+
+        <!-- Card 2 -->
+        <div class="blog-card">
+            <img src="assets/picture4.webp" alt="Project Documentation">
+
+            <div class="blog-content">
+                <h3>Don't Just List it...</h3>
+                <p>
+                   Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.
+                </p>
+            </div>
+<!-- 
+            <div class="blog-footer">
+                <div class="author">
+                    <img src="assets/avatar2.webp" alt="Sarah Davis">
+                    <span>Sarah Davis</span>
+                </div>
+                <span class="read-time">10 Min Read</span>
+            </div> -->
+        </div>
+
+        <!-- Card 3 -->
+        <div class="blog-card">
+            <img src="assets/picture2.webp" alt="Stakeholder Management">
+
+            <div class="blog-content">
+                <h3>Guide to Buyers</h3>
+                <p>
+                    Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists, contractors on speed dial, & more!
+                </p>
+            </div>
+
+            <!-- <div class="blog-footer">
+                <div class="author">
+                    <img src="assets/avatar3.webp" alt="Michael Smith">
+                    <span>Michael Smith</span>
+                </div>
+                <span class="read-time">14 Min Read</span>
+            </div> -->
+        </div>
+
+    </div>
+</section>
+
+     <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="why-choose-header">
+            <!-- <div class="why-choose-label">Best Real Estate</div> -->
+            <h2>Why Choose Us</h2>
+        </div>
+        
+        <div class="why-choose-grid">
+            <!-- Feature 1 -->
+            <div class="why-choose-card">
+                <div class="why-choose-icon">📍</div>
+                <div class="why-choose-content">
+                    <h3>Local Market Expertise</h3>
+                    <p>We have in-depth knowledge of the local real estate market, neighborhood trends, and property values. Our team provides accurate insights to help you make informed decisions whether you're buying, selling, or investing.</p>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="why-choose-card">
+                <div class="why-choose-icon">👤</div>
+                <div class="why-choose-content">
+                    <h3>Personalized Client Experience</h3>
+                    <p>Every client's goals are different. We take the time to understand your needs and deliver tailored strategies that align with your lifestyle, budget, and timeline—ensuring a smooth and stress-free experience.</p>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="why-choose-card">
+                <div class="why-choose-icon">🤝</div>
+                <div class="why-choose-content">
+                    <h3>Proven Results & Negotiation Skills</h3>
+                    <p>With a strong track record of successful transactions, we know how to negotiate effectively and protect your best interests. Our focus is on maximizing value while minimizing risk.</p>
+                </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="why-choose-card">
+                <div class="why-choose-icon">📱</div>
+                <div class="why-choose-content">
+                    <h3>Comprehensive Marketing Strategy</h3>
+                    <p>We utilize professional photography, digital marketing, and targeted online exposure to showcase properties at their best—reaching qualified buyers and delivering faster, stronger results.</p>
+                </div>
+            </div>
+
+            <!-- Feature 5 -->
+            <div class="why-choose-card">
+                <div class="why-choose-icon">🎯</div>
+                <div class="why-choose-content">
+                    <h3>End-to-End Support</h3>
+                    <p>From the first consultation to closing day, we guide you through every step of the process. Our team handles the details so you can focus on what matters most.</p>
+                </div>
+            </div>
+
+            <!-- Feature 6 -->
+            <div class="why-choose-card">
+                <div class="why-choose-icon">✓</div>
+                <div class="why-choose-content">
+                    <h3>Trusted & Transparent Service</h3>
+                    <p>Integrity, communication, and trust are at the core of everything we do. We keep you informed at every stage and ensure complete transparency throughout your real estate journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- --------Our Services Section ---- -->
+<section class="services">
+    <h2>Our Services</h2>
+    <p class="subtitle">What Can We Help You With Today?</p>
+
+    <div class="services-grid">
+
+        <!-- Service 1 -->
+        <div class="service-card">
+            <img src="assets/Services1.webp" alt="Residential Services">
+            <h3>Real Estate Done Right</h3>
+            <p>
+               Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!
+            </p>
+            <button>READ MORE</button>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+            <img src="assets/Services2.webp" alt="Commercial Services">
+            <h3>Commercial & Residential</h3>
+            <p>
+               Large or small, condo or mansion, we can find it and get at the price that's right. Fixer-uppers? Luxury? We can help with all of it! We live, work, and play in this community. Happy to help you find where to put you hard-earned dollars.
+            </p>
+            <button>READ MORE</button>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+            <img src="assets/Services3.webp" alt="Plumber Repair Works">
+            <h3>Rely on Expertise</h3>
+            <p>
+                If you have questions about affordability, credit, and loan options, trust us to connect you with the right people to get the answers you need in a timely fashion. We make sure you feel confident and educated every step of the way.
+            </p>
+            <button>READ MORE</button>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="gallery-header">
+            <h2>Find your Perfect Property</h2>
+            <p>Your leading real estate agency helping you make the right property purchase.</p>
+            <button class="gallery-btn">New listings</button>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-wrapper" id="galleryWrapper">
+                <!-- Image 1 - Large -->
+                <div class="gallery-item large" onclick="openLightbox(0)">
+                    <img src="assets/gallery1.webp" alt="Luxury Estate 1">
+                    <div class="gallery-label">7 Bed Estate</div>
+                </div>
+
+                <!-- Image 2 - Medium -->
+                <div class="gallery-item medium" onclick="openLightbox(1)">
+                    <img src="assets/gallery2.webp" alt="Modern Pool">
+                </div>
+
+                <!-- Image 3 - Small -->
+                <div class="gallery-item small" onclick="openLightbox(2)">
+                    <img src="assets/gallery3.webp" alt="Living Room">
+                </div>
+
+                <!-- Image 4 - Small -->
+                <div class="gallery-item small" onclick="openLightbox(3)">
+                    <img src="assets/gallery4.webp" alt="Bedroom">
+                </div>
+
+                <!-- Image 5 - Medium -->
+                <div class="gallery-item medium" onclick="openLightbox(4)">
+                    <img src="assets/gallery5.webp" alt="Exterior View">
+                </div>
+
+                <!-- Image 6 - Medium -->
+                <div class="gallery-item medium" onclick="openLightbox(5)">
+                    <img src="assets/gallery6.webp" alt="Kitchen">
+                </div>
+
+                <!-- Image 7 - Large -->
+                <div class="gallery-item large" onclick="openLightbox(6)">
+                    <img src="assets/gallery7.webp" alt="Luxury Estate 2">
+                    <div class="gallery-label">5 Bed Villa</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="testimonial-container">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-slide active">
+                <div class="testimonial-quote">
+                    Our business is built off of close relationships and we are so glad we get to share our positive real estate experiences with our clients.
+                </div>
+                <div class="testimonial-author">
+                    <h4>Yeo Jin</h4>
+                    <p>Founder at Durantel</p>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-slide">
+                <div class="testimonial-quote">
+                    Working with Dream Lands was an absolute pleasure. They helped us find our perfect home and made the entire process smooth and stress-free.
+                </div>
+                <div class="testimonial-author">
+                    <h4>Sarah Johnson</h4>
+                    <p>CEO at TechStart</p>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-slide">
+                <div class="testimonial-quote">
+                    Professional, knowledgeable, and truly dedicated to finding the right property. I couldn't have asked for a better real estate experience.
+                </div>
+                <div class="testimonial-author">
+                    <h4>Michael Chen</h4>
+                    <p>Director at Global Ventures</p>
+                </div>
+            </div>
+
+            <!-- Dots Navigation -->
+            <div class="testimonial-dots">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </section>
+
+     <!-- Property Types Section -->
+    <section class="property-types">
+        <!-- <div class="section-badge">🏘️ PROPERTY TYPES</div> -->
+        <h2>Explore Apartment Types</h2>
+        
+        <div class="property-grid">
+            <div class="property-card">
+                <div class="property-icon">🏠</div>
+                <h3>Houses</h3>
+                <p>122 Properties</p>
+            </div>
+            
+            <div class="property-card">
+                <div class="property-icon">🏢</div>
+                <h3>Apartments</h3>
+                <p>155 Properties</p>
+            </div>
+            
+            <div class="property-card">
+                <div class="property-icon">🏛️</div>
+                <h3>Offices</h3>
+                <p>300 Properties</p>
+            </div>
+            
+            <div class="property-card">
+                <div class="property-icon">🏘️</div>
+                <h3>Townhome</h3>
+                <p>89 Properties</p>
+            </div>
+            
+            <!-- <div class="property-card">
+                <div class="property-icon">🏡</div>
+                <h3>Bungalow</h3>
+                <p>54 Properties</p>
+            </div> -->
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-wrapper">
+            <!-- Left Side -->
+            <div class="contact-left">
+                <div class="contact-badge">CONTACT US</div>
+                <h2>Reach Us Whenever You want</h2>
+
+                <!-- Opening Hours -->
+                <div class="opening-hours">
+                    <h3>Office Hours</h3>
+                    <div class="hours-row">
+                        <span><strong>Open daily</strong></span>
+                        <span class="time">8:00 am - 7:00 pm</span>
+                    </div>
+                    <p style="color: #64748b; margin-top: 1rem; font-size: 0.9rem; font-style: italic;">
+                        Appointments outside office hours available upon request. Just call!
+                    </p>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">📞</div>
+                        <div class="contact-info-text">
+                            <h4>Call or Visit</h4>
+                            <p>(206) 919-6886</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">📍</div>
+                        <div class="contact-info-text">
+                            <h4>Marci Metzger - THE RIDGE REALTY GROUP</h4>
+                            <p>3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">💬</div>
+                        <div class="contact-info-text">
+                            <h4>Message us on WhatsApp</h4>
+                            <p>(206) 919-6886</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side - Form -->
+            <div class="contact-form-wrapper">
+                <h3>Send Message</h3>
+                <form>
+                    <div class="form-group full-width">
+                        <input type="text" class="form-input" placeholder="Name" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <input type="email" class="form-input" placeholder="Email*" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <textarea class="form-input" placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send</button>
+                    <p style="color: #64748b; font-size: 0.8rem; margin-top: 1rem; line-height: 1.5;">
+                        This site is protected by reCAPTCHA and the Google 
+                        <a href="#" style="color: #09013e; text-decoration: underline;">Privacy Policy</a> and 
+                        <a href="#" style="color: #09013e; text-decoration: underline;">Terms of Service</a> apply.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox(event)">×</button>
+            <img id="lightboxImage" src="" alt="Property Image">
+        </div>
+    </div>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9108.467326649334!2d-115.95923303386407!3d36.18286742331575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c7b94556d546f7%3A0xfb78f470a91cc315!2sPahrump%20Vly%20Hwy%2C%20Nevada%2C%20USA!5e0!3m2!1sen!2sph!4v1768372843187!5m2!1sen!2sph"
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <!-- Logo and Social -->
+            <div class="footer-logo-section">
+                <img 
+                src="assets/logo.webp" 
+                alt="Pahrump Realtor Logo" 
+                class="footer-logo"
+    >
+                <p>Your trusted partner in finding the perfect property. We provide expert guidance and comprehensive services.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+                    <a href="#" class="social-icon" aria-label="Yelp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L8 8h8l-4-6zm0 20l4-6H8l4 6zm10-10l-6 4V8l6 4zM2 12l6-4v8l-6-4z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#properties">Properties</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Buy Property</a></li>
+                    <li><a href="#">Sell Property</a></li>
+                    <li><a href="#">Rent Property</a></li>
+                    <li><a href="#">Property Management</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li><a href="tel:+12069196886">(206) 919-6886</a></li>
+                    <li><a href="#">Pahrump, Nevada</a></li>
+                    <li><a href="#contact">Get In Touch</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>Copyright 2025 © All Rights Reserved | Design by <a href="#">Eugenio Capuno</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Property cards animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.property-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'all 0.5s ease';
+            observer.observe(card);
+        });
+
+        // Testimonial Slider
+        let currentTestimonial = 0;
+        const testimonials = document.querySelectorAll('.testimonial-slide');
+        const dots = document.querySelectorAll('.dot');
+
+        function showSlide(n) {
+            testimonials.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            currentTestimonial = n;
+            if (currentTestimonial >= testimonials.length) currentTestimonial = 0;
+            if (currentTestimonial < 0) currentTestimonial = testimonials.length - 1;
+            
+            testimonials[currentTestimonial].classList.add('active');
+            dots[currentTestimonial].classList.add('active');
+        }
+
+        function currentSlide(n) {
+            showSlide(n);
+        }
+
+        function nextSlide() {
+            showSlide(currentTestimonial + 1);
+        }
+
+        // Auto-slide every 3 seconds
+        setInterval(nextSlide, 3000);
+
+        // Gallery Auto-Scroll
+        const galleryWrapper = document.getElementById('galleryWrapper');
+        let scrollPosition = 0;
+        const scrollSpeed = 1;
+        let autoScrollInterval;
+
+        function startAutoScroll() {
+            autoScrollInterval = setInterval(() => {
+                scrollPosition += scrollSpeed;
+                if (scrollPosition >= galleryWrapper.scrollWidth / 2) {
+                    scrollPosition = 0;
+                }
+                galleryWrapper.style.transform = `translateX(-${scrollPosition}px)`;
+            }, 20);
+        }
+
+        // Clone images for infinite scroll effect
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        galleryItems.forEach(item => {
+            const clone = item.cloneNode(true);
+            galleryWrapper.appendChild(clone);
+        });
+
+        // Start auto-scroll after 1 second
+        setTimeout(startAutoScroll, 1000);
+
+        // Pause on hover
+        galleryWrapper.addEventListener('mouseenter', () => {
+            clearInterval(autoScrollInterval);
+        });
+
+        galleryWrapper.addEventListener('mouseleave', () => {
+            startAutoScroll();
+        });
+
+        // Lightbox Functions
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = document.getElementById('lightboxImage');
+        const images = [
+            'assets/gallery1.webp',
+            'assets/gallery2.webp',
+            'assets/gallery3.webp',
+            'assets/gallery4.webp',
+            'assets/gallery5.webp',
+            'assets/gallery6.webp',
+            'assets/gallery7.webp'
+        ];
+
+        function openLightbox(index) {
+            lightboxImage.src = images[index];
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox(event) {
+            if (event.target === lightbox || event.target.classList.contains('lightbox-close')) {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        }
+
+        // Close lightbox with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
+</body>
+</html>
